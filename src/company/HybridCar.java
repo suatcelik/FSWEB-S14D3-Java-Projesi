@@ -21,5 +21,6 @@ public class HybridCar extends CarSkeleton{
     @Override
     public void drive() {
         super.drive();
+        runEngine();
     }
 }

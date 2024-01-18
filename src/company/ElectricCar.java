@@ -18,6 +18,7 @@ public class ElectricCar extends CarSkeleton {
     @Override
     public void drive() {
         super.drive();
+        runEngine();
     }
 }
 

@@ -14,6 +14,7 @@ public class CarSkeleton {
    }
    public void drive(){
        System.out.println("Car is driving");
+       runEngine();
    }
    protected void runEngine(){
        System.out.println("Engine is running.");

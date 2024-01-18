@@ -18,5 +18,6 @@ public class GasPoweredCar extends CarSkeleton {
     @Override
     public void drive() {
         super.drive();
+        runEngine();
     }
 }
